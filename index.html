@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./riset.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Manrope:wght@200..800&family=Michroma&family=Outfit:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Quicksand:wght@300..700&family=Sora:wght@100..800&family=Spline+Sans:wght@300..700&family=Young+Serif&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Manrope:wght@200..800&family=Michroma&family=Outfit:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Quicksand:wght@300..700&family=Sora:wght@100..800&family=Spline+Sans:wght@300..700&family=Young+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="sticky-container">
+        <nav class="sticky-container">
+            <div>
+                <img src="./assets/image/logo nav.svg" alt="logo" class="logo">
+            </div>
+            <div class="nav-container">
+                <a href="">Home</a>
+                <a href="">Our Process</a>
+                <a href="">Works</a>
+                <a href="">Pricing</a>
+                <button>Work with us</button>
+            </div>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    
+        <script>
+            function toggleMenu() {
+                const navContainer = document.querySelector('.nav-container');
+                navContainer.classList.toggle('active');
+            }
+        </script>
+    </div>
+    <main>
+        <section class="hero">
+            <div class="main-home">
+                <div class="text">
+                    <h1>Design studio for ambitious brand</h1>
+                    <p>At Neutra, we merge creativity and strategy to craft designs that  both captivate and elevate.</p>
+                    <button><p>Schedule a call</p> <img src="./assets/image/arrow button.svg" alt="arrow"></button>
+                </div>
+                <div class="img-main">
+                    <img src="./assets/image/main img.svg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="text">
+                <p>Our Process</p>
+                <h2>We Simplify The Journey From Design To Launch.</h2>
+                <h3>We make it easy to bring your ideas to life, guiding you from concept to a fully launched product.</h3>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="./assets/image/vector/pesawat.svg" alt="">
+                    <h2>Kickoff</h2>
+                    <p>The kickoff stage is where everything begins. We align with you to understand your goals, vision, and expectations. Through in-depth discussions and thorough research.</p>
+                </div> 
+                <div class="card">
+                    <img src="./assets/image/vector/3 orang.svg" alt="">
+                    <h2>Kickoff</h2>
+                    <p>The kickoff stage is where everything begins. We align with you to understand your goals, vision, and expectations. Through in-depth discussions and thorough research.</p>
+                </div> 
+                <div class="card">
+                    <img src="./assets/image/vector/gerigi.svg" alt="">
+                    <h2>Kickoff</h2>
+                    <p>The kickoff stage is where everything begins. We align with you to understand your goals, vision, and expectations. Through in-depth discussions and thorough research.</p>
+                </div>
+            </div>     
+        </section>
+        <section class="works">
+            <div class="text">
+                <p>Our Works</p>
+                <h2>Building Digital Excellence  with Neuerve</h2>
+                <h3>Explore our curated work, showcasing collaborations with visionary clients across diverse industries.</h3>
+            </div>
+            <div class="first">
+                <div class="big-card">
+                    <img src="./assets/image/work/codify.png" alt="">
+                    <h3>Codify</h3>
+                    <div class="description">
+                        <p>Agency</p>
+                        <p>Portfolio</p>
+                        <p>Saas</p>
+                    </div>
+                </div>
+                <div class="big-card">
+                    <img src="./assets/image/work/taskify.png" alt="">
+                    <h3>Taskify</h3>
+                    <div class="description">
+                        <p>Business</p>
+                        <p>AI</p>
+                        <p>Saas</p>
+                    </div>
+                </div>
+            </div>
+            <div class="second">
+                <div class="big-card">
+                    <img src="./assets/image/work/flexify.png" alt="">
+                    <h3>Flexify</h3>
+                    <div class="description">
+                        <p>Saas</p>
+                        <p>AI</p>
+                        <p>Business</p>
+                    </div>
+                </div>
+                <div class="big-card">
+                    <img src="./assets/image/work/landify.png" alt="">
+                    <h3>Landify</h3>
+                    <div class="description">
+                        <p>Business</p>
+                        <p>Portfolio</p>
+                        <p>Landing</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="testimonial">
+            <div class="text">
+                <p>Testimonials</p>
+                <h2>Worldwide customers</h2>
+                <h3>Neuevre empowers global teams with seamless integration and time-saving capabilities.</h3>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <div class="profile">
+                        <div>
+                            <img src="./assets/image/testimonal/david.svg" alt="">
+                        </div>
+                        <div>
+                            <h2>David Johnson</h2>
+                            <p>Saas company</p>
+                        </div>
+                    </div>
+                    <div class="statement">
+                        <p>Neuevre transformed our website, we've never looked better!</p>
+                    </div>
+                </div>
+                <div class="card2">
+                    <div class="profile">
+                        <div>
+                            <img src="./assets/image/testimonal/sarah.svg" alt="">
+                        </div>
+                        <div>
+                            <h2>Sarah Violid</h2>
+                            <p>Saas company</p>
+                        </div>
+                    </div>
+                    <div class="statement">
+                        <p>Incredible results! Our client engagement has doubled thanks to Neutra.</p>
+                    </div>
+                </div>
+                <div class="card3">
+                    <div class="profile">
+                        <div>
+                            <img src="./assets/image/testimonal/owen.svg" alt="">
+                        </div>
+                        <div>
+                            <h2>michael Owen</h2>
+                            <p>Saas company</p>
+                        </div>
+                    </div>
+                    <div class="statement">
+                        <p>Neutra's intuitive design made our digital overhaul a complete success.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="client">
+                <p>Our awesome client</p>
+                <div class="client-container">
+                    <img src="./assets/image/client/landify.svg" alt="">
+                    <img src="./assets/image/client/flowboard.svg" alt="">
+                    <img src="./assets/image/client/startify.svg" alt="">
+                    <img src="./assets/image/client/flexify.svg" alt="">
+                    <img src="./assets/image/client/agentify.svg" alt="">
+                    <img src="./assets/image/client/codify.svg" alt="">
+                </div>
+                
+            </div>
+        </section>
+        <section class="pricing">
+            <div class="text">
+                <p>Pricing</p>
+                <h2>Unlock Your Growth</h2>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <h2>Part-time</h2>
+                    <ul>
+                        <li>Fast delivery & response</li>
+                        <li>Pause / cancel anytime</li>
+                        <li>Dedicated project manager</li>
+                        <li>1 request at the time</li>
+                        <li>SEO Marketing</li>
+                    </ul>
+                    <div class="price">
+                        <h3>$2450</h3>
+                        <p>/ month</p>
+                    </div>
+                    <button>Get Started</button>
+                </div>
+                <div class="card">
+                    <h2>Full-time</h2>
+                    <ul>
+                        <li>Fast delivery & response</li>
+                        <li>Pause / cancel anytime</li>
+                        <li>Dedicated project manager</li>
+                        <li>10 request at the time</li>
+                        <li>E-commerce integration</li>
+                    </ul>
+                    <div class="price">
+                        <h3>$3950</h3>
+                        <p>/ month</p>
+                    </div>
+                    <button>Get Started</button>
+                </div>
+                <div class="card-black">
+                    <div class="popular">
+                        <h2>Custom</h2>
+                        <p>Popular</p>
+                    </div>
+                    
+                    <ul>
+                        <li>Fast delivery & response</li>
+                        <li>Pause / cancel anytime</li>
+                        <li>Dedicated project manager</li>
+                        <li>Unlimited request</li>
+                        <li>E-commerce integration</li>
+                    </ul>
+                    <div class="price">
+                        <h3>$5999</h3>
+                        <p>/ month</p>
+                    </div>
+                    <button>Get Started</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="main">
+            <div class="left">
+                <img src="./assets/image/footer logo.svg" alt="">
+                <p>Get in touch to find out more about digital experiences to effectively  reach and engage customers and target audiences.</p>
+                <a href="">contact@neuerve.com</a>
+            </div>
+            <div class="right">
+                <div>
+                    <ul>
+                        <li>Company</li>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Cases</a></li>
+                        <li><a href="">Article</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li>Legal</li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Licensing</a></li>
+                        <li><a href="">Terms of Use</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <p>2025 &#169; NEURVE DESIGN STUDIO</p>
+            <div style="display: flex; gap: 12px;">
+                <a href=""><img src="./assets/image/footer/basket.svg" alt=""></a>
+                <a href=""><img src="./assets/image/footer/Linkin.svg" alt=""></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
