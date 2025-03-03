@@ -796,7 +796,7 @@ footer {
         
 
         img {
-            max-width: 332px;
+            max-width: 312px;
         }
 
         .first {
@@ -826,6 +826,10 @@ footer {
             .card {
                 height: fit-content;
                 padding-bottom: 32px;
+
+                p {
+                    width: 270px;
+                }
             }
         }
     }
